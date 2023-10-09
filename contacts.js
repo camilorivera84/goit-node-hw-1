@@ -27,7 +27,7 @@ function getContactById(contactId) {
 
     if (contact) {
       console.log('Contacto encontrado:');
-      console.table([contact]); // Muestra el contacto en formato de tabla
+      console.table([contact]);
     } else {
       console.log('No se encontró ningún contacto con el ID proporcionado.');
     }
